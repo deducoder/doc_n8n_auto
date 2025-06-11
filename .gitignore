@@ -13,3 +13,4 @@ server/src/__pycache__/
 server/src/routes/__pycache__/
 server/src/services/__pycache__/
 server/src/utils/__pycache__/
+client/node_modules/

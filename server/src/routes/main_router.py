@@ -1,8 +1,8 @@
 from flask import Flask
 
 # Import Blueprints
-from src.routes.health_router import health_router
-from src.routes.text_extract import text_extract_router
+from ..routes.health_router import health_router
+from ..routes.text_extract import text_extract_router
 
 
 def register_blueprints(app):

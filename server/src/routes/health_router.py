@@ -1,10 +1,10 @@
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, request
 import config
 
 health_router = Blueprint("health_router", __name__)
 
 
-@health_router.route("/health")
+@health_router.route("/health", methods=["GET"])
 def health():
     """
     Health check endpoint to verify the server and configuration status.
