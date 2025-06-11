@@ -1,0 +1,16 @@
+# Python related ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and settings
+.env
+.venv/
+.vscode/
+
+# Project specific ignores (Relative paths)
+server/__pycache__/
+server/src/__pycache__/
+server/src/routes/__pycache__/
+server/src/services/__pycache__/
+server/src/utils/__pycache__/
