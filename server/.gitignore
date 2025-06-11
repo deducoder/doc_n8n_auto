@@ -6,7 +6,6 @@ __pycache__/
 # Environment and settings
 .env
 .venv/
-.vscode/
 
 # Project specific ignores (Relative paths)
 server/__pycache__/
