@@ -32,4 +32,4 @@ def root():
 
 if __name__ == "__main__":
     # Use the configurations to run and listen the Flask app
-    app.run(host=config.HOST, port=config.PORT, debug=config.DEBUG)
+    app.run(host=str(config.HOST), port=config.PORT, debug=config.DEBUG)
